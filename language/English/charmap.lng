@@ -1,0 +1,63 @@
+<?php
+/*
+=============================================
+ Name      : MWS Char Map v1.2
+ Author    : Mehmet Hanoğlu ( MaRZoCHi )
+ Site      : http://dle.net.tr/   (c) 2015
+ License   : MIT License
+ Translate : Mehmet Hanoğlu <dle.net.tr>
+=============================================
+*/
+
+$lang['charmap_err12'] = "Invalid page. Please report this error to Site Manager!";
+$lang['charmap_err13'] = "Undefine page. Please report this error to Site Manager!";
+$lang['charmap_err14'] = "Page not found. Maybe, you have reached maximum page number.";
+
+$lang['charmap_1'] = "General settings";
+$lang['charmap_2'] = "Title for {%page%} page";
+$lang['charmap_3'] = "Please enter a meta-title for page";
+$lang['charmap_4'] = "Description for {%page%} page";
+$lang['charmap_5'] = "Please enter a meta-description for page";
+$lang['charmap_6'] = "Keywords for {%page%} page";
+$lang['charmap_7'] = "Please enter a meta-keywords for page";
+$lang['charmap_8'] = "Show character list on main pages";
+$lang['charmap_9'] = "Show character list on main pages";
+$lang['charmap_10'] = "Show character list on character pages";
+$lang['charmap_11'] = "Show character list on character pages";
+$lang['charmap_12'] = "Show main character on character page";
+$lang['charmap_13'] = "Show main character on character page. Which character";
+$lang['charmap_14'] = "Show main page";
+$lang['charmap_15'] = "If you activate this: all contents will be shown on a page. <b>Main page</b> configured above.";
+$lang['charmap_16'] = "Use cache";
+$lang['charmap_17'] = "Activate this settings for save the system recource and fast page loading.";
+$lang['charmap_18'] = "Minify cache";
+$lang['charmap_19'] = "If you use cache: Use minifier function for cache files. This compress HTML content";
+$lang['charmap_20'] = "Refresh cache with news";
+$lang['charmap_21'] = "If you use cache: Cache files will be refresed when submit a new content";
+$lang['charmap_22'] = "Cache timeout";
+$lang['charmap_23'] = "If you use cache: Cache files will be refresed with specified interval <b>Hour</b>";
+$lang['charmap_24'] = "Categories for {%page%} page";
+$lang['charmap_25'] = "Please select categories";
+$lang['charmap_26'] = "Main";
+$lang['charmap_27'] = "Add new map";
+$lang['charmap_28'] = "New map adding";
+$lang['charmap_29'] = "New";
+$lang['charmap_30'] = "URL adress {%page%} page";
+$lang['charmap_31'] = "Please enter only latin characters";
+$lang['charmap_32'] = "Add Map";
+$lang['charmap_33'] = "Goto page";
+$lang['charmap_34'] = "Delete page";
+$lang['charmap_35'] = "Use paginator on main pages";
+$lang['charmap_36'] = "Paginator using provide performance. You can specify page limit for contents";
+$lang['charmap_37'] = "Use paginator on char. pages";
+$lang['charmap_38'] = "Paginator will be used only in char. pages.";
+
+// version 1.1
+$lang['charmap_39'] = "Use paginator on profile";
+$lang['charmap_40'] = "Paginator will be used only in profile pages. You can define limit for content";
+$lang['charmap_41'] = "For user page, name of user tag : %user%";
+
+// version 1.2
+$lang['charmap_42'] = "Show main map";
+
+?>

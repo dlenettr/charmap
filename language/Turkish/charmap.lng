@@ -1,0 +1,64 @@
+<?php
+/*
+=============================================
+ Name      : MWS Char Map v1.2
+ Author    : Mehmet Hanoğlu ( MaRZoCHi )
+ Site      : http://dle.net.tr/   (c) 2015
+ License   : MIT License
+ Translate : Mehmet Hanoğlu <dle.net.tr>
+=============================================
+*/
+
+$lang['charmap_err12'] = "Geçersiz sayfa. Lütfen bu hatayı site yöneticisine bildirin!";
+$lang['charmap_err13'] = "Belirtilmemiş sayfa. Lütfen bu hatayı site yöneticisine bildirin!";
+$lang['charmap_err14'] = "Sayfa bulunamadı. Belki de, maximum sayfa sayısını geçtiniz";
+
+$lang['charmap_1'] = "Genel ayarlar";
+$lang['charmap_2'] = "{%page%} sayfası için başlık";
+$lang['charmap_3'] = "Lütfen sayfa için başlık girin";
+$lang['charmap_4'] = "{%page%} sayfası için açıklama";
+$lang['charmap_5'] = "Lütfen sayfa için açıklama girin";
+$lang['charmap_6'] = "{%page%} sayfası için anahtar kelimeler";
+$lang['charmap_7'] = "Lütfen sayfa için anahtar kelimeler girin";
+$lang['charmap_8'] = "Anasayfada karakter listesini göster";
+$lang['charmap_9'] = "0-9, A-Z tüm karakterleri anasayfada göster";
+$lang['charmap_10'] = "Karakter sayfasında karakter listesini göster";
+$lang['charmap_11'] = "Bir karaktere tıklanıldığında açılan sayfada karakter listesini göster";
+$lang['charmap_12'] = "Karakter sayfasında ana karakteri göster";
+$lang['charmap_13'] = "Hangi karakter seçili ise karakter sayfasında onu gösterir";
+$lang['charmap_14'] = "Anasayfayı göster";
+$lang['charmap_15'] = "Eğer aktifleştirirseniz: tüm içeriklerin listesi bir <b>Anasayfa</b>da gözükecektir, yukarıdan ayarlamalarını yapabilirsiniz.";
+$lang['charmap_16'] = "Önbellek kullan";
+$lang['charmap_17'] = "Sistem kaynaklarını az kullanmak ve sayfa yüklemelerini hızlandırmak için bu ayarı aktifleştirin. Eğer fazla içeriğe sahip bir siteniz varsa bu ayarı kesinlikle aktifleştirin.";
+$lang['charmap_18'] = "Önbelleği küçült";
+$lang['charmap_19'] = "Eğer önbellek kullanımı aktif ise: Küçültme fonksiyonu ile HTML içeriğiniz minimum boyuta indirilecektir.";
+$lang['charmap_20'] = "Makale eklendiğinde yenile";
+$lang['charmap_21'] = "Eğer önbellek kullanımı aktif ise: Önbellek dosyaları yeni makale eklendiğinde otomatik olarak yenilenecektir.";
+$lang['charmap_22'] = "Önbellek zaman aşımı";
+$lang['charmap_23'] = "Eğer önbellek kullanımı aktif ise: Önbellek dosyaları belirtilen zaman aralığında otomatik olarak yenilenecektir. <b>Saat</b> olarak girin";
+$lang['charmap_24'] = "{%page%} sayfası için kategoriler";
+$lang['charmap_25'] = "Lütfen kategorileri seçin";
+$lang['charmap_26'] = "Anasayfa";
+$lang['charmap_27'] = "Yeni harita ekle";
+$lang['charmap_28'] = "Yeni harita ekleme";
+$lang['charmap_29'] = "Yeni";
+$lang['charmap_30'] = "{%page%} sayfanın URL adresi";
+$lang['charmap_31'] = "Lütfen sadece latin karakterleri girin";
+$lang['charmap_32'] = "Haritayı ekle";
+$lang['charmap_33'] = "Sayfaya git";
+$lang['charmap_34'] = "Sayfayı sil";
+$lang['charmap_35'] = "Ana sayfalar için sayfalandırma kullan";
+$lang['charmap_36'] = "Fazla içeriği olan siteler için kullanımı yararlıdır.";
+$lang['charmap_37'] = "Karakter sayfaları için sayfalandırma kullan";
+$lang['charmap_38'] = "Sayfalandırma sadece karakter sayfaları için kullan.";
+
+// version 1.1
+$lang['charmap_39'] = "Profil sayfalarında sayfalandırma kullan";
+$lang['charmap_40'] = "Profil sayfasında sayfalandırma kullanılacak. İçerikler için limit belirleyebilirsiniz.";
+$lang['charmap_41'] = "Kullanıcı sayfasında, kullanıcı adı için tag : %user%";
+
+// version 1.2
+$lang['charmap_42'] = "Tüm haritayı göster";
+
+
+?>
