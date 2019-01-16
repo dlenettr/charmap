@@ -14,18 +14,10 @@ Her yazar için eklediği yazılar kendi profilinde listelenir.
 ![Ekran 3](/docs/screen3.png?raw=true)
 
 ## Tarihçe
-* Version: **1.3** ( 01.02.2018 ) - DLE 12.1, 12.0
-  * DLE 12.1 uyumluluğu sağlandı.
 
-* Version: **1.2** ( 18.12.2015 ) - DLE 10.2, 10.3
-  * İlave alanlardan bilgi çekme özelliği eklendi
-  * Profildeki bulunamadı hatası giderildi
-  * Tagı profil dışındaki sayfalarda gözükmesi hatası giderildi `[on-user] ... [/on-user]`
-  * mb_substr var / yok kontrolü eklendi.
-
-* Version: **1.1** ( 11.05.2014 ) - DLE 10.2, 10.3
-  * Kullanıcı haritası seçeceği eklendi
-  * Ufak hatalar giderildi
-
-* Version: **1.0** ( 20.04.2014 ) - DLE 10.2, 10.3
-  * İlk versiyon
+| Version | Tarih | Uyumluluk | Yenilikler |
+| ------- | ----- | --------- | ---------- |
+|**1.3**|01.02.2018|12.0, 12.1|DLE 12.1 uyumluluğu sağlandı.|
+|**1.2**|18.12.2015|10.2, 10.3|İlave alanlardan bilgi çekme özelliği eklendi<br>Profildeki bulunamadı hatası giderildi<br>Tagı profil dışındaki sayfalarda gözükmesi hatası giderildi `[on-user] ... [/on-user]`<br>mb_substr var / yok kontrolü eklendi.|
+|**1.1**|11.05.2014|10.2, 10.3|Kullanıcı haritası seçeceği eklendi|
+|**1.0**|20.04.2014|10.2, 10.3|İlk sürüm|
