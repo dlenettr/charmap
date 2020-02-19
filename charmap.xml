@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dleplugin>
+	<name>CharMap</name>
+	<description>Sitenizde ekli olan makaleleri ilk harflerine göre gruplandırarak dinamik haritasını oluşturmanıza yarar.</description>
+	<icon>engine/skins/images/charmap.png</icon>
+	<version>1.4</version>
+	<dleversion>13.0</dleversion>
+	<versioncompare>greater</versioncompare>
+	<upgradeurl></upgradeurl>
+	<filedelete>0</filedelete>
+	<needplugin></needplugin>
+	<mnotice>0</mnotice>
+	<mysqlinstall><![CDATA[]]></mysqlinstall>
+	<mysqlupgrade><![CDATA[]]></mysqlupgrade>
+	<mysqlenable><![CDATA[INSERT INTO {prefix}_admin_sections (name, icon, title, descr, allow_groups) VALUES ('charmap', 'engine/skins/images/charmap.png', 'MWS CharMap v1.4', 'Sitenizde ekli olan makaleleri ilk harflerine göre gruplandırarak dinamik haritasını oluşturmanıza yarar.', '1')]]></mysqlenable>
+	<mysqldisable><![CDATA[DELETE FROM {prefix}_admin_sections WHERE name = 'charmap';]]></mysqldisable>
+	<mysqldelete><![CDATA[DELETE FROM {prefix}_admin_sections WHERE name = 'charmap';]]></mysqldelete>
+	<phpinstall><![CDATA[]]></phpinstall>
+	<phpupgrade><![CDATA[]]></phpupgrade>
+	<phpenable><![CDATA[]]></phpenable>
+	<phpdisable><![CDATA[]]></phpdisable>
+	<phpdelete><![CDATA[]]></phpdelete>
+	<notice><![CDATA[]]></notice>
+	<file name="engine/engine.php">
+		<operation action="before">
+			<searchcode><![CDATA[case "deletenews" :]]></searchcode>
+			<replacecode><![CDATA[// Char Map
+case "charmap" :
+	include ENGINE_DIR . '/modules/charmap.php';
+	break;
+// Char Map]]></replacecode>
+		</operation>
+	</file>
+</dleplugin>

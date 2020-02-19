@@ -1,11 +1,10 @@
 <?php
 /*
 =============================================
- Name      : MWS Char Map v1.3
+ Name      : CharMap v1.4
  Author    : Mehmet Hanoğlu ( MaRZoCHi )
- Site      : http://dle.net.tr/
+ Site      : https://mehmethanoglu.com.tr
  License   : MIT License
- Date      : 01.02.2018
 =============================================
 */
 
